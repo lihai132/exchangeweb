@@ -1,0 +1,293 @@
+@charset "UTF-8";
+.el-table--small td {
+  padding: 2px 0;
+}
+
+.el-table {
+  overflow: auto;
+}
+
+.el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: visible;
+}
+
+.el-table__body-wrapper {
+  overflow: visible;
+}
+
+.el-table__header-wrapper {
+  overflow: visible;
+}
+
+.el-table__footer-wrapper {
+  overflow: visible;
+}
+
+.el-table::after {
+  position: relative !important;
+}
+
+.page .btn-prev:before {
+  content: '上一页';
+}
+
+.page .btn-next:before {
+  content: '下一页';
+}
+
+.page .el-icon-arrow-left,
+.page .el-icon-arrow-right {
+  display: none !important;
+}
+
+.el-table__body tr.current-row > td {
+  background-color: #a4ccec;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #a4ccec;
+}
+
+.BaseTable {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.BaseTable .container {
+  height: 92.5%;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.BaseTable .container .table1 {
+  height: 150px !important;
+}
+
+.BaseTable .container .table1 /deep/.el-table__body-wrapper {
+  height: 100px !important;
+}
+
+.BaseTable .container .hrad {
+  height: 114px;
+}
+
+.BaseTable .container .from-head {
+  height: 34px;
+}
+
+.BaseTable .container .box {
+  flex: 1;
+}
+
+.BaseTable .container .el-table__body-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.BaseTable .container .page {
+  height: 32px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.head {
+  /* padding-bottom: 30px; */
+}
+
+.head .head-one,
+.head .head-two,
+.head .head-three {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.head .head-one .input1,
+.head .head-one .input2,
+.head .head-one .input3,
+.head .head-two .input1,
+.head .head-two .input2,
+.head .head-two .input3,
+.head .head-three .input1,
+.head .head-three .input2,
+.head .head-three .input3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 325px;
+}
+
+.head .head-one .input1 .title,
+.head .head-one .input2 .title,
+.head .head-one .input3 .title,
+.head .head-two .input1 .title,
+.head .head-two .input2 .title,
+.head .head-two .input3 .title,
+.head .head-three .input1 .title,
+.head .head-three .input2 .title,
+.head .head-three .input3 .title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: right;
+  flex: 1;
+}
+
+.head .head-end {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.head .head-end .input4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 325px;
+}
+
+.head .head-end .input4 .title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: right;
+  flex: 1;
+}
+
+.head .head-end .but {
+  margin-right: 96px;
+}
+
+.from-head {
+  width: 100%;
+  height: 40px !important;
+  background: #fff;
+  border-left: 1px solid #ebeef5;
+  border-top: 1px solid #ebeef5;
+  border-right: 1px solid #ebeef5;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.from-head .el-button {
+  margin-left: 15px;
+  background: #EBEEF5;
+  color: #606266;
+}
+
+.handle-box {
+  margin-bottom: 20px;
+}
+
+.handle-select {
+  width: 120px;
+}
+
+.handle-input {
+  width: 300px;
+  display: inline-block;
+}
+
+.table {
+  width: 100%;
+  font-size: 14px;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.table-td-thumb {
+  display: block;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+.page {
+  text-align: right;
+}
+
+.table {
+  width: 100%;
+  font-size: 14px;
+}
+
+a {
+  color: #333;
+}
+
+.right-menu {
+  position: fixed;
+  background: #fff;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  z-index: 999;
+  display: none;
+}
+
+.right-menu a {
+  width: 75px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  color: #1a1a1a;
+}
+
+.right-menu a:hover {
+  background: #eee;
+  color: #fff;
+}
+
+.right-menu {
+  border: 1px solid #eee;
+  box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.right-menu a {
+  padding: 2px;
+}
+
+.right-menu a:hover {
+  background: #42b983;
+}
+
+path {
+  fill: black;
+}
+
+#menu {
+  overflow: hidden;
+  /*隐藏溢出的元素*/
+  box-shadow: 0 1px 1px #888, 1px 0 1px #ccc;
+  position: absolute;
+  display: none;
+  background: #ffffff;
+  z-index: 10;
+}
+
+.menu {
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+  cursor: pointer;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+
+.menu:hover {
+  background: #42b983;
+  color: #fff;
+}
